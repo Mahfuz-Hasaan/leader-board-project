@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 150px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins' ;
+}
+hr{
+    width: 780px;
+    position: relative;
+    left: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+h1{
+    padding: 22px 0px 20px 50px;
+    color: #562EFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+.plyers img{
+    height:56px ;
+    width: 56px;
+}
+.plyers{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+.top-section,.bottom-section{
+    background-color:#FFFFFF;
+    width: 870px ; 
+    border-radius: 10px; 
+    padding-bottom: 40px;
+    
+}
+.section-a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    padding: 20px 0px 30px 50px;
+    border: 0;
+    
+}
+
+.grid-box img{
+    width: 164px;
+    height: 88px
+}
+span.by{
+    color:#9F9F9F ;
+    
+}
+span.name{
+    color:#562EFF ;
+}
+.blog-1{
+    display: flex;
+    gap: 16px;
+    padding: 10px 15px 0px 50px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.blog-content p{
+    padding-top: 10px;
+}
+.blog-content h2{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.blog-content p{
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.banner img{
+    width: 224px;
+}
+
+.time-rating{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.section-a-bottom-section{
+    display: grid;
+    grid-template-columns: repeat(3,.5fr);
+    gap: 0px;
+}
+.banner{
+    padding: 20px 10px 0px 35px;
+}
+.banner h2{
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 8px 0px 5px 0px;
+}
+.banner p{
+    padding: 5px 0px 10px 0px;
+    font-size: 14px;
+    color:#ED6B4F ;
+}
+.fa-star.filled {
+    color:#FFC014 ;
+}
+.rating-star{
+    font-size: 10px;
+}
+.rating-point{
+    color:#A2A2A2 ;
+}
+.clock{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FF4A60;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color:#FFE4E8;;
+}
